@@ -1,8 +1,7 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/pidsoftware/',  // Change this to the name of your GitHub repo
   plugins: [react()],
-  base: '/pidsoftware/',  // Ensure this matches your repo name
-})
+});
