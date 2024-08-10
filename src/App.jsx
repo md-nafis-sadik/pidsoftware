@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Router>
+    <Router basename="/pidsoftware">
       <Routes> 
         <Route path="/" element={<Home />}  />
         <Route path="/check-key" element={<CheckKey/>}  />
